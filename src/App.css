@@ -1,0 +1,59 @@
+* {
+    background-color: lightskyblue;
+  }
+  
+  /* .cardComponents {
+    width: 100%;
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  } */
+  
+  /* .card__component {
+    width: 250px;
+  }
+  
+  .card__component img {
+    border-radius: 20px;
+  }
+  
+  .card__component p {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  } */
+  
+  .status{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    background-color: lightskyblue(44, 109, 202);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gameBoard{
+    border: 1px solid white;
+    padding: 20px;
+    margin: 10px;
+    /* justify-content: space-around; */
+    background-color: gray;
+    
+  }
+
+  .board-row {
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+  }
+
+  .square{
+    font-size: 25px;
+    margin: 20px;
+    justify-content: space-around;
+    position: relative;
+  }
